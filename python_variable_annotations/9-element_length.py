@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
+"""
+doc
+"""
 
 from typing import Iterable, Sequence, List, Tuple
 
 
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
+    """
+    doc
+    """
     return [(i, len(i)) for i in lst]
